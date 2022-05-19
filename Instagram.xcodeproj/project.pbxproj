@@ -19,7 +19,13 @@
 		A077C0E52823DB200088F20A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077C0E42823DB200088F20A /* PostViewController.swift */; };
 		A077C0E72823DB380088F20A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077C0E62823DB380088F20A /* SettingViewController.swift */; };
 		A077C0EB2823E1B80088F20A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077C0EA2823E1B80088F20A /* TabBarController.swift */; };
-		A077C0ED2823FFAD0088F20A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A077C0EC2823FFAD0088F20A /* GoogleService-Info.plist */; };
+		A0C2E2E328260CFB009A6408 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C2E2E228260CFB009A6408 /* GoogleService-Info.plist */; };
+		A0CC2348282DE6BC008070EB /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC2347282DE6BC008070EB /* CommentViewController.swift */; };
+		A0F65E362827F6C000835B17 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F65E352827F6C000835B17 /* Const.swift */; };
+		A0F65E382827FD5600835B17 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F65E372827FD5600835B17 /* PostData.swift */; };
+		A0F65E3B2829608300835B17 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F65E392829608300835B17 /* PostTableViewCell.swift */; };
+		A0F65E3C2829608300835B17 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F65E3A2829608300835B17 /* PostTableViewCell.xib */; };
+		A0F65E3E282AB7CC00835B17 /* CommentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F65E3D282AB7CC00835B17 /* CommentData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +43,13 @@
 		A077C0E42823DB200088F20A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		A077C0E62823DB380088F20A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A077C0EA2823E1B80088F20A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		A077C0EC2823FFAD0088F20A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0C2E2E228260CFB009A6408 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0CC2347282DE6BC008070EB /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		A0F65E352827F6C000835B17 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A0F65E372827FD5600835B17 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A0F65E392829608300835B17 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		A0F65E3A2829608300835B17 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		A0F65E3D282AB7CC00835B17 /* CommentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentData.swift; sourceTree = "<group>"; };
 		C41B6686D5A666E5EB0C291A /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8673F9844B2BEDB79463B5 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,15 +99,21 @@
 				A077C0CC2823D91A0088F20A /* SceneDelegate.swift */,
 				A077C0E22823DB0B0088F20A /* ImageSelectViewController.swift */,
 				A077C0E42823DB200088F20A /* PostViewController.swift */,
+				A0CC2347282DE6BC008070EB /* CommentViewController.swift */,
+				A0F65E372827FD5600835B17 /* PostData.swift */,
+				A0F65E3D282AB7CC00835B17 /* CommentData.swift */,
+				A0F65E352827F6C000835B17 /* Const.swift */,
 				A077C0E62823DB380088F20A /* SettingViewController.swift */,
 				A077C0E02823DAF00088F20A /* HomeViewController.swift */,
+				A0F65E392829608300835B17 /* PostTableViewCell.swift */,
+				A0F65E3A2829608300835B17 /* PostTableViewCell.xib */,
 				A077C0DE2823DAD20088F20A /* LoginViewController.swift */,
 				A077C0EA2823E1B80088F20A /* TabBarController.swift */,
 				A077C0D02823D91A0088F20A /* Main.storyboard */,
+				A0C2E2E228260CFB009A6408 /* GoogleService-Info.plist */,
 				A077C0D32823D91C0088F20A /* Assets.xcassets */,
 				A077C0D52823D91C0088F20A /* LaunchScreen.storyboard */,
 				A077C0D82823D91C0088F20A /* Info.plist */,
-				A077C0EC2823FFAD0088F20A /* GoogleService-Info.plist */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -106,7 +124,6 @@
 				30614777E2E2BE196B4AA29F /* Pods-Instagram.debug.xcconfig */,
 				DC8673F9844B2BEDB79463B5 /* Pods-Instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A077C0D72823D91C0088F20A /* LaunchScreen.storyboard in Resources */,
-				A077C0ED2823FFAD0088F20A /* GoogleService-Info.plist in Resources */,
+				A0F65E3C2829608300835B17 /* PostTableViewCell.xib in Resources */,
+				A0C2E2E328260CFB009A6408 /* GoogleService-Info.plist in Resources */,
 				A077C0D42823D91C0088F20A /* Assets.xcassets in Resources */,
 				A077C0D22823D91A0088F20A /* Main.storyboard in Resources */,
 			);
@@ -226,14 +244,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CC2348282DE6BC008070EB /* CommentViewController.swift in Sources */,
+				A0F65E3B2829608300835B17 /* PostTableViewCell.swift in Sources */,
+				A0F65E3E282AB7CC00835B17 /* CommentData.swift in Sources */,
 				A077C0E32823DB0B0088F20A /* ImageSelectViewController.swift in Sources */,
 				A077C0EB2823E1B80088F20A /* TabBarController.swift in Sources */,
 				A077C0E12823DAF00088F20A /* HomeViewController.swift in Sources */,
 				A077C0E52823DB200088F20A /* PostViewController.swift in Sources */,
 				A077C0E72823DB380088F20A /* SettingViewController.swift in Sources */,
+				A0F65E382827FD5600835B17 /* PostData.swift in Sources */,
 				A077C0DF2823DAD20088F20A /* LoginViewController.swift in Sources */,
 				A077C0CB2823D91A0088F20A /* AppDelegate.swift in Sources */,
 				A077C0CD2823D91A0088F20A /* SceneDelegate.swift in Sources */,
+				A0F65E362827F6C000835B17 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +409,7 @@
 				DEVELOPMENT_TEAM = 6C9J7BF5M5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -415,6 +439,7 @@
 				DEVELOPMENT_TEAM = 6C9J7BF5M5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
